@@ -5,6 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class flight {
     @GetMapping("/flight")
-    public String getData() { return "AEROPLANE travel today" ;}
+    public String getData() { return "AEROPLANE01 will  travel today" ;}
 
 }
